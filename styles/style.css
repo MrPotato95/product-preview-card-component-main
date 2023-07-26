@@ -97,7 +97,7 @@ main article .pricing {
   align-items: center;
   text-align: center;
   gap: 1rem;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 main article .pricing h2 {
   font-size: 2rem;
@@ -121,7 +121,9 @@ main article .btn {
   border: none;
   outline: none;
   border-radius: 6px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
 }
 main article button:hover {
   cursor: pointer;

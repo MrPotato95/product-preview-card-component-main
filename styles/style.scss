@@ -16,8 +16,6 @@ $montserrat_700: 700;
 $fraunces: "Fraunces", serif;
 $fraunces_700: 700;
 
-// Reset
-
 // Styles
 
 body {
@@ -86,7 +84,7 @@ main {
       align-items: center;
       text-align: center;
       gap: 1rem;
-      margin-bottom: 10px;
+      margin-bottom: 15px;
 
       h2 {
         font-size: 2rem;
@@ -113,7 +111,9 @@ main {
       border: none;
       outline: none;
       border-radius: 6px;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
+      font-family: $fraunces;
+      font-weight: $fraunces_700;
     }
 
     button:hover {
