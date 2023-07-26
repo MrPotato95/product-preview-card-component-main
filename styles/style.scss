@@ -2,25 +2,25 @@
 @import "reset";
 
 // Colors
-$clr_primary_cyan: hsl(158, 36%, 37%);
-$clr_primary_cyan_overlay: hsl(158, 16%, 37%);
-$clr_primary_cream: hsl(30, 38%, 92%);
-$clr_vry_drk_bl: hsl(212, 21%, 14%);
-$clr_drk_gry_bl: hsl(228, 12%, 48%);
-$clr_white: hsl(0, 0%, 100%);
+$clr-primary-cyan: hsl(158, 36%, 37%);
+$clr-primary-cyan-overlay: hsl(158, 16%, 37%);
+$clr-primary-cream: hsl(30, 38%, 92%);
+$clr-vry_drk-bl: hsl(212, 21%, 14%);
+$clr-drk_gry-bl: hsl(228, 12%, 48%);
+$clr-white: hsl(0, 0%, 100%);
 
 // Fonts
 $montserrat: "Montserrat", sans-serif;
-$montserrat_500: 500;
-$montserrat_700: 700;
+$montserrat-500: 500;
+$montserrat-700: 700;
 $fraunces: "Fraunces", serif;
-$fraunces_700: 700;
+$fraunces-700: 700;
 
 // Styles
 
 body {
   height: 100vh;
-  background-color: $clr_primary_cream;
+  background-color: $clr-primary-cream;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,7 +29,7 @@ body {
 
 main {
   max-width: 90vw;
-  background-color: $clr_white;
+  background-color: $clr-white;
   margin: 2rem 1rem;
   border-radius: 10px;
 }
@@ -53,7 +53,7 @@ main {
 
   article {
     .perfume {
-      color: $clr_drk_gry_bl;
+      color: $clr-drk-gry-bl;
       letter-spacing: 4px;
       font-size: 12px;
       margin-bottom: 10px;
@@ -69,10 +69,10 @@ main {
     p {
       display: block;
       text-align: left;
-      color: $clr_drk_gry_bl;
+      color: $clr-drk-gry-bl;
       line-height: 1.6;
       font-family: $montserrat;
-      font-weight: $montserrat_500;
+      font-weight: $montserrat-500;
       font-size: 14px;
       padding-right: 10px;
       margin-bottom: 15px;
@@ -89,8 +89,8 @@ main {
       h2 {
         font-size: 2rem;
         font-family: $fraunces;
-        font-weight: $fraunces_700;
-        color: $clr_primary_cyan;
+        font-weight: $fraunces-700;
+        color: $clr-primary-cyan;
       }
 
       p {
@@ -106,8 +106,8 @@ main {
       gap: 10px;
       width: 100%;
       padding: 12px;
-      background-color: $clr_primary_cyan;
-      color: $clr_white;
+      background-color: $clr-primary-cyan;
+      color: $clr-white;
       border: none;
       outline: none;
       border-radius: 6px;
@@ -118,7 +118,7 @@ main {
 
     button:hover {
       cursor: pointer;
-      background-color: $clr_primary_cyan_overlay;
+      background-color: $clr-primary-cyan-overlay;
     }
   }
 }
